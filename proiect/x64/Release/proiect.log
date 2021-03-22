@@ -1,0 +1,70 @@
+﻿  Camera.cpp
+  main.cpp
+R:\facultate\pg\proiect\proiect\main.cpp(160,9): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+R:\facultate\pg\proiect\proiect\main.cpp(161,9): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+R:\facultate\pg\proiect\proiect\main.cpp(191,20): warning C4305: '+=': truncation from 'double' to 'float'
+R:\facultate\pg\proiect\proiect\main.cpp(205,21): warning C4305: '-=': truncation from 'double' to 'float'
+R:\facultate\pg\proiect\proiect\main.cpp(265,15): warning C4305: '+=': truncation from 'double' to 'float'
+R:\facultate\pg\proiect\proiect\main.cpp(503,34): warning C4305: 'argument': truncation from 'double' to 'float'
+R:\facultate\pg\proiect\proiect\main.cpp(504,35): warning C4305: 'argument': truncation from 'double' to 'float'
+R:\facultate\pg\proiect\proiect\main.cpp(506,34): warning C4305: 'argument': truncation from 'double' to 'float'
+R:\facultate\pg\proiect\proiect\main.cpp(507,35): warning C4305: 'argument': truncation from 'double' to 'float'
+R:\facultate\pg\proiect\proiect\main.cpp(508,35): warning C4305: 'argument': truncation from 'double' to 'float'
+R:\facultate\pg\proiect\proiect\main.cpp(509,35): warning C4305: 'argument': truncation from 'double' to 'float'
+R:\facultate\pg\proiect\proiect\main.cpp(510,36): warning C4305: 'argument': truncation from 'double' to 'float'
+R:\facultate\pg\proiect\proiect\main.cpp(511,36): warning C4305: 'argument': truncation from 'double' to 'float'
+R:\facultate\pg\proiect\proiect\main.cpp(512,35): warning C4305: 'argument': truncation from 'double' to 'float'
+R:\facultate\pg\proiect\proiect\main.cpp(513,35): warning C4305: 'argument': truncation from 'double' to 'float'
+R:\facultate\pg\proiect\proiect\main.cpp(514,35): warning C4305: 'argument': truncation from 'double' to 'float'
+R:\facultate\pg\proiect\proiect\main.cpp(515,34): warning C4305: 'argument': truncation from 'double' to 'float'
+R:\facultate\pg\proiect\proiect\main.cpp(516,34): warning C4305: 'argument': truncation from 'double' to 'float'
+R:\facultate\pg\proiect\proiect\main.cpp(517,33): warning C4305: 'argument': truncation from 'double' to 'float'
+R:\facultate\pg\proiect\proiect\main.cpp(518,33): warning C4305: 'argument': truncation from 'double' to 'float'
+  Mesh.cpp
+R:\facultate\pg\proiect\proiect\main.cpp(519,33): warning C4305: 'argument': truncation from 'double' to 'float'
+  Model3D.cpp
+R:\facultate\pg\proiect\proiect\Mesh.cpp(32,72): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+R:\facultate\pg\proiect\proiect\Model3D.cpp(89,40): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+R:\facultate\pg\proiect\proiect\Model3D.cpp(89,40): warning C4267:         with
+R:\facultate\pg\proiect\proiect\Model3D.cpp(89,40): warning C4267:         [
+R:\facultate\pg\proiect\proiect\Model3D.cpp(89,40): warning C4267:             _Ty=GLuint
+R:\facultate\pg\proiect\proiect\Model3D.cpp(89,40): warning C4267:         ]
+  Shader.cpp
+  SkyBox.cpp
+  stb_image.cpp
+  tiny_obj_loader.cpp
+  Window.cpp
+R:\facultate\pg\proiect\proiect\Model3D.cpp(97,46): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 1743 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+LINK : warning LNK4286: symbol '__glewGenBuffers' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewGenVertexArrays' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewActiveTexture' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewBufferData' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewGetUniformLocation' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewUniform1i' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewBindBuffer' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewVertexAttribPointer' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewBindVertexArray' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewEnableVertexAttribArray' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewDeleteBuffers' defined in 'libglew32.lib(glew.obj)' is imported by 'Model3D.obj'
+LINK : warning LNK4286: symbol '__glewGenerateMipmap' defined in 'libglew32.lib(glew.obj)' is imported by 'Model3D.obj'
+LINK : warning LNK4286: symbol '__glewDeleteVertexArrays' defined in 'libglew32.lib(glew.obj)' is imported by 'Model3D.obj'
+LINK : warning LNK4286: symbol '__glewLinkProgram' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewDeleteShader' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewGetProgramInfoLog' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewShaderSource' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewAttachShader' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewGetProgramiv' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewGetShaderInfoLog' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewCreateProgram' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewCreateShader' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewCompileShader' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewGetShaderiv' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewUseProgram' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewUniformMatrix4fv' defined in 'libglew32.lib(glew.obj)' is imported by 'SkyBox.obj'
+LINK : warning LNK4286: symbol 'glewInit' defined in 'libglew32.lib(glew.obj)' is imported by 'Window.obj'
+LINK : warning LNK4286: symbol 'glewExperimental' defined in 'libglew32.lib(glew.obj)' is imported by 'Window.obj'
+  proiect.vcxproj -> R:\facultate\pg\proiect\x64\Release\proiect.exe
